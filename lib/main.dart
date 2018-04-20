@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
 
   void playYoutubeVideo() {
     FlutterYoutube.playYoutubeVideoByUrl(
-      apiKey: "<AIzaSyCXd32N0BEj_dI2stZjv0zkUm88p_9PXfk>",
+      apiKey: "<YOUR API>",
       videoUrl: "https://www.youtube.com/watch?v=fhWaJi1Hsfo",
     );
   }
